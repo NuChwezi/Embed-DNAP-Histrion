@@ -16,12 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void launchDNAP(View view) {
-        try {
-            switchToDNAP_Persona("bb765c31-6959-49d0-b192-6c83bdab5cb4", "LABS");
-        }catch (Exception e){
-            e.printStackTrace();
-            Log.e("DNAP:Client", e.getMessage());
-        }
+        switchToDNAP_Persona("bb765c31-6959-49d0-b192-6c83bdab5cb4", "LABS");
     }
 
     private void switchToDNAP_Persona(String personaUUID, String autoInstallChannel) {
