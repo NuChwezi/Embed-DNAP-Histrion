@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void launchDNAP(View view) {
+    public void onClick(View view) {
         switchToDNAP_Persona("bb765c31-6959-49d0-b192-6c83bdab5cb4", "LABS");
     }
 
